@@ -24,7 +24,7 @@ D)
 
 3) You should see a Connected successfully message in the browser once you access the instance using the public IP.
 
-Creating RDS
+**Creating RDS**
 
 --------------------------
 
@@ -36,9 +36,20 @@ Creating RDS
 <img width="1657" height="535" alt="image" src="https://github.com/user-attachments/assets/d25a60ba-93cc-4439-9d78-647f52fd4616" />
 <img width="1268" height="528" alt="image" src="https://github.com/user-attachments/assets/f7635c8a-9463-45d0-b321-7e3c4247a841" />
 <img width="1674" height="382" alt="image" src="https://github.com/user-attachments/assets/c00a5d28-63b8-4664-aa3f-2b8eaf56a525" />
-
+<img width="1598" height="145" alt="image" src="https://github.com/user-attachments/assets/8ea3bddb-5bf6-4226-97cd-690293e3d014" />
 
 --------------------------
+
+**Making Sure Instance can connect to RDS**
+
+--------------------------
+
+<img width="1526" height="690" alt="image" src="https://github.com/user-attachments/assets/21692e7b-1e83-4c4f-9049-2eb939f713f8" />
+<img width="1809" height="297" alt="image" src="https://github.com/user-attachments/assets/49057bdc-26f5-4c2d-9c59-660cf6353b42" />
+<img width="1758" height="541" alt="image" src="https://github.com/user-attachments/assets/fac522ef-d6db-49ae-b557-4b345f52227b" />
+
+
+
 
 
 
