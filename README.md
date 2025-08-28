@@ -18,3 +18,20 @@ C)
 D)
 4) You should see a Connected successfully message in the browser once you access the instance using the public IP.
 
+Creating RDS
+--------------------------
+<img width="594" height="221" alt="image" src="https://github.com/user-attachments/assets/0000fe6c-d9ba-4cdf-9626-f67a10f311b8" />
+<img width="1658" height="360" alt="image" src="https://github.com/user-attachments/assets/2328f102-69bb-414c-9e94-7a2b3ee8f9a2" />
+<img width="1518" height="220" alt="image" src="https://github.com/user-attachments/assets/fa5811eb-adc5-4c41-aad0-ca6b25e96153" />
+<img width="1670" height="722" alt="image" src="https://github.com/user-attachments/assets/29741517-8dca-44cf-b7d2-6a701ecd0536" />
+<img width="1657" height="535" alt="image" src="https://github.com/user-attachments/assets/d25a60ba-93cc-4439-9d78-647f52fd4616" />
+<img width="1268" height="528" alt="image" src="https://github.com/user-attachments/assets/f7635c8a-9463-45d0-b321-7e3c4247a841" />
+<img width="1674" height="382" alt="image" src="https://github.com/user-attachments/assets/c00a5d28-63b8-4664-aa3f-2b8eaf56a525" />
+--------------------------
+
+
+
+
+
+
+
