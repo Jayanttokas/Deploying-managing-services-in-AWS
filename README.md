@@ -1,6 +1,7 @@
 # Deploying-managing-services-in-AWS
 
-TASKs
+TASKS
+
 A)
 1. Create a private RDS instance using a sandbox template.
 2. The engine type must be MySQL v8.4.5, and it must be a db.t3.micro type instance.
