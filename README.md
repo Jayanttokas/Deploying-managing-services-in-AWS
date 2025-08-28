@@ -48,7 +48,50 @@ D)
 <img width="1809" height="297" alt="image" src="https://github.com/user-attachments/assets/49057bdc-26f5-4c2d-9c59-660cf6353b42" />
 <img width="1758" height="541" alt="image" src="https://github.com/user-attachments/assets/fac522ef-d6db-49ae-b557-4b345f52227b" />
 
+--------------------------
 
+**Creating Key**
+
+--------------------------
+
+# ensure /root/.ssh exists
+sudo mkdir -p /root/.ssh
+sudo chmod 700 /root/.ssh
+
+# create key if not exists
+if [ ! -f /root/.ssh/id_rsa ]; then
+  sudo ssh-keygen -t rsa -b 4096 -N "" -f /root/.ssh/id_rsa
+  sudo chmod 600 /root/.ssh/id_rsa
+  sudo chmod 644 /root/.ssh/id_rsa.pub
+fi
+
+# display public key
+sudo cat /root/.ssh/id_rsa.pub
+
+# become root (if needed)
+sudo -i
+
+# ensure /root/.ssh exists
+mkdir -p /root/.ssh
+chmod 700 /root/.ssh
+
+# paste the public key from aws-client into /root/.ssh/authorized_keys
+cat >> /root/.ssh/authorized_keys <<'EOF'
+ssh-rsa AAAA...paste the key from aws-client... user@host
+EOF
+
+chmod 600 /root/.ssh/authorized_keys
+chown root:root /root/.ssh/authorized_keys
+
+ssh -i /root/.ssh/id_rsa root@<EC2_PUBLIC_IP>  'echo "SSH OK - $(whoami)@$(hostname)"; exit'
+# if root disabled, try default user:
+ssh -i /root/.ssh/id_rsa ec2-user@<EC2_PUBLIC_IP>  'sudo whoami; hostname'
+
+--------------------------
+
+**Creating Key**
+
+--------------------------
 
 
 
